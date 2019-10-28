@@ -92,7 +92,7 @@ do
   if (( ${current_max_temp} >= 90000 )); then
     new_fan_speed=255
   elif (( ${current_max_temp} >= 70000 )); then
-    new_fan_speed=70 #255
+    new_fan_speed=90 #255
   elif (( ${current_max_temp} >= 70000 )); then
     new_fan_speed=${new_fan_speed} #200
   elif (( ${current_max_temp} >= 68000 )); then
