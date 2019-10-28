@@ -6,7 +6,7 @@
 # See README.md for details.
 
 #set to false to suppress logs
-DEBUG=true
+DEBUG=false
 
 # Make sure only root can run our script
 if (( $EUID != 0 )); then
